@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<Attribute_Configuration>
+	<Radius>
+		<NAS Name="Mikrotik">
+			<POD_Attributes>
+				<Attribute Name="Framed-IP-Address" RefMethodName="getUserIp"/>
+				<Attribute Name="NAS-IP-Address" RefMethodName="getClientIp"/>
+				<Attribute Name="NAS-Port-Id" RefMethodName="getNasPortId"/>	
+				<Attribute Name="User-Name" RefMethodName="getUserName"/>
+				<Attribute Name="Acct-Session-Id" RefMethodName="getAcctSessionId"/>	
+			</POD_Attributes>
+			<COA_Attributes>
+				<Attribute Name="Framed-IP-Address" RefMethodName="getUserIp"/>
+				<Attribute Name="NAS-IP-Address" RefMethodName="getClientIp"/>
+				<Attribute Name="NAS-Port-Id" RefMethodName="getNasPortId"/>
+				<Attribute Name="User-Name" RefMethodName="getUserName"/>
+				<Attribute Name="Acct-Session-Id" RefMethodName="getAcctSessionId"/>
+			</COA_Attributes>
+		</NAS>
+		<NAS Name="Cisco">
+			<POD_Attributes>
+				<Attribute Name="Framed-IP-Address" RefMethodName="getUserIp"/>
+				<Attribute Name="NAS-IP-Address" RefMethodName="getClientIp"/>
+				<Attribute Name="NAS-Port-Id" RefMethodName="getNasPortId"/>
+				<Attribute Name="User-Name" RefMethodName="getUserName"/>
+				<Attribute Name="Acct-Session-Id" RefMethodName="getAcctSessionId"/>
+			</POD_Attributes>
+			<COA_Attributes>
+				<Attribute Name="Framed-IP-Address" RefMethodName="getUserIp"/>
+				<Attribute Name="NAS-IP-Address" RefMethodName="getClientIp"/>
+				<Attribute Name="NAS-Port-Id" RefMethodName="getNasPortId"/>
+				<Attribute Name="User-Name" RefMethodName="getUserName"/>
+				<Attribute Name="Acct-Session-Id" RefMethodName="getAcctSessionId"/>
+			</COA_Attributes>
+		</NAS>
+		<NAS Name="Default">
+			<POD_Attributes>
+				<Attribute Name="Framed-IP-Address" RefMethodName="getUserIp"/>
+				<Attribute Name="NAS-IP-Address" RefMethodName="getClientIp"/>
+				<Attribute Name="NAS-Port-Id" RefMethodName="getNasPortId"/>
+				<Attribute Name="User-Name" RefMethodName="getUserName"/>
+				<Attribute Name="Acct-Session-Id" RefMethodName="getAcctSessionId"/>
+			</POD_Attributes>
+			<COA_Attributes>
+				<Attribute Name="Framed-IP-Address" RefMethodName="getUserIp"/>
+				<Attribute Name="NAS-IP-Address" RefMethodName="getClientIp"/>
+				<Attribute Name="NAS-Port-Id" RefMethodName="getNasPortId"/>
+				<Attribute Name="User-Name" RefMethodName="getUserName"/>
+				<Attribute Name="Acct-Session-Id" RefMethodName="getAcctSessionId"/>
+			</COA_Attributes>
+		</NAS>
+	</Radius>
+	<Diameter>
+		<NAS Name="Cisco">
+			<ASR_Attributes>
+				<Attribute Name="Framed-IP-Address" RefMethodName="getUserIp"/>
+				<Attribute Name="NAS-IP-Address" RefMethodName="getClientIp"/>
+				<Attribute Name="NAS-Port-Id" RefMethodName="getNasPortId"/>
+				<Attribute Name="User-Name" RefMethodName="getUserName"/>
+				<Attribute Name="Auth-Application-Id" RefMethodName="getAuthId"/>
+				<Attribute Name="Destination-Host" RefMethodName="getHost"/>
+				<Attribute Name="Destination-Realm" RefMethodName="getRealm"/>
+				<Attribute Name="Session-Id" RefMethodName="getSessionId"/>
+			</ASR_Attributes>
+			<RAR_Attributes>
+				<Attribute Name="Framed-IP-Address" RefMethodName="getUserIp"/>
+				<Attribute Name="NAS-IP-Address" RefMethodName="getClientIp"/>
+				<Attribute Name="NAS-Port-Id" RefMethodName="getNasPortId"/>
+				<Attribute Name="User-Name" RefMethodName="getUserName"/>
+				<Attribute Name="Auth-Application-Id" RefMethodName="getAuthId"/>
+				<Attribute Name="Destination-Host" RefMethodName="getHost"/>
+				<Attribute Name="Destination-Realm" RefMethodName="getRealm"/>
+				<Attribute Name="Session-Id" RefMethodName="getSessionId"/>
+			</RAR_Attributes>
+		</NAS>
+		<NAS Name="Default">
+			<ASR_Attributes>
+				<Attribute Name="Framed-IP-Address" RefMethodName="getUserIp"/>
+				<Attribute Name="NAS-IP-Address" RefMethodName="getClientIp"/>
+				<Attribute Name="NAS-Port-Id" RefMethodName="getNasPortId"/>
+				<Attribute Name="User-Name" RefMethodName="getUserName"/>
+				<Attribute Name="Auth-Application-Id" RefMethodName="getAuthId"/>
+				<Attribute Name="Destination-Host" RefMethodName="getHost"/>
+				<Attribute Name="Destination-Realm" RefMethodName="getRealm"/>
+				<Attribute Name="Session-Id" RefMethodName="getSessionId"/>
+			</ASR_Attributes>
+			<RAR_Attributes>
+				<Attribute Name="Framed-IP-Address" RefMethodName="getUserIp"/>
+				<Attribute Name="NAS-IP-Address" RefMethodName="getClientIp"/>
+				<Attribute Name="NAS-Port-Id" RefMethodName="getNasPortId"/>
+				<Attribute Name="User-Name" RefMethodName="getUserName"/>
+				<Attribute Name="Auth-Application-Id" RefMethodName="getAuthId"/>
+				<Attribute Name="Destination-Host" RefMethodName="getHost"/>
+				<Attribute Name="Destination-Realm" RefMethodName="getRealm"/>
+				<Attribute Name="Session-Id" RefMethodName="getSessionId"/>
+			</RAR_Attributes>
+		</NAS>
+	</Diameter>
+ </Attribute_Configuration>

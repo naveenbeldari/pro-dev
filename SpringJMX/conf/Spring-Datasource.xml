@@ -1,0 +1,61 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	<bean id="mailProperties"
+    class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+ 
+    <property name="location" value="classpath:conf/dbconfig.properties" />
+ 
+	</bean>
+	
+	
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="${mysql_driverClass}" />
+		<property name="url" value="${mysql_jdbcUrl}" />
+		<property name="username" value="${mysql_user}" />
+		<property name="password" value="${mysql_password}" />
+	</bean>
+	
+	<!-- <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+    <property name="properties" ref="mysqlConnectionProperties"></property>
+    <property name="driverClass" value="${jdbc.driver}" />
+    <property name="jdbcUrl" value="${jdbc.url}" />
+    <property name="user" value="${jdbc.username}" />
+    <property name="password" value="${jdbc.password}" />
+    c3p0 combo pooled data source settings
+    <property name="initialPoolSize" value="3" />
+    <property name="minPoolSize" value="3" />
+    <property name="maxPoolSize" value="50" />
+    <property name="maxIdleTime" value="7200" />
+    <property name="maxStatements" value="200" />
+    <property name="idleConnectionTestPeriod" value="270" />
+    <property name="preferredTestQuery">
+        <value>SELECT 1</value>
+    </property>
+	</bean> -->
+
+
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+
+
+	<bean id="pcrfDataHandler" class="com.mq.pcrf.db.dao.PCRFDataHandler">
+		<property name="jdbcTemplate" ref="jdbcTemplate"></property>
+	</bean>
+	
+	
+	
+	<bean id="radCacheLoader" class="com.mq.pcrf.cache.RadCacheLoader">
+		<property name="pcrfDataHandler" ref="pcrfDataHandler"></property>
+	</bean>
+	
+	<bean id="radDatastoreCache" class="com.mq.pcrf.cache.RadDatastoreCache">
+		<property name="radCacheLoader" ref="radCacheLoader"></property>
+	</bean>
+	
+	
+
+</beans>

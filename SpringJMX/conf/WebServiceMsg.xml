@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<error-messages>
+	<message>
+		<message-id>10093</message-id>
+		<message-text>User Already Exists With This User name</message-text>
+	</message>
+	<message>
+		<message-id>40007</message-id>  
+		<message-text>Password and confirm password should be same</message-text>
+	</message>
+	<message>
+		<message-id>40034</message-id>
+		<message-text>Please specify UserName</message-text>
+	</message>	
+	<message>
+		<message-id>40035</message-id>
+		<message-text>Please Specify Password</message-text>
+	</message>
+	<message>
+		<message-id>40037</message-id>
+		<message-text>Not a valid User</message-text>
+	</message>	
+	<message>
+		<message-id>40039</message-id>
+		<message-text>Please Specify Confirm Password</message-text>
+	</message>
+		<message>
+		<message-id>40046</message-id>
+		<message-text>Please Specify old Password</message-text>
+	</message>
+	<message>
+		<message-id>40047</message-id>
+		<message-text>Password changed successfully</message-text>
+	</message>
+	<message>
+		<message-id>40048</message-id>
+		<message-text> Invalid Date</message-text>
+	</message>	
+	<message>
+		<message-id>1042</message-id>
+		<message-text>More than one row is coming from usage</message-text>
+	</message>
+	<message>
+		<message-id>1059</message-id>
+		<message-text>Invalid Date and Time Format</message-text>
+	</message>
+	<message>
+		<message-id>1000</message-id>
+		<message-text>System Error Occured</message-text>
+	</message>
+	<message>
+		<message-id>1001</message-id>
+		<message-text>User Id entered is invalid</message-text>
+	</message>
+	<message>
+		<message-id>1003</message-id>
+		<message-text>No subscriber exists with this Account No.</message-text>
+	</message>
+	<message>
+		<message-id>1004</message-id>
+		<message-text>No subscriber exists with this Smart Card No.</message-text>
+	</message>
+	<message>
+		<message-id>40027</message-id>
+		<message-text>Password should contain at least a single Alphabet.</message-text>
+	</message>
+	<message>
+		<message-id>40028</message-id>
+		<message-text>Password should contain at least a single Number.</message-text>
+	</message>
+	<message>
+		<message-id>40029</message-id>
+		<message-text>Password should not contain userid.</message-text>
+	</message>	
+	<message>
+		<message-id>40030</message-id>
+		<message-text>Select a unique Password which does not exists in last selection.</message-text>
+	</message>	
+	<message>
+		<message-id>1112</message-id>
+		<message-text>ExternalId should be provided</message-text>
+	</message>
+	<message>
+		<message-id>1113</message-id>
+		<message-text>No customer exists with this External id</message-text>
+	</message>
+	<message>
+		<message-id>1120</message-id>
+		<message-text>Not a valid Downgrade service</message-text>
+	</message>
+	<message>
+		<message-id>1121</message-id>
+		<message-text>This Service is not entitled to this customer</message-text>
+	</message>
+	<message>
+		<message-id>1122</message-id>
+		<message-text>Unable to get Service Downgrade definition</message-text>
+	</message>
+	<message>
+		<message-id>1123</message-id>
+		<message-text>Successfully updated service downgrade details</message-text>
+	</message>
+	<message>
+		<message-id>1124</message-id>
+		<message-text>Reason code for downgrade is not valid</message-text>
+	</message>
+	<message>
+		<message-id>1125</message-id>
+		<message-text>Reason code for downgrade is not specified</message-text>
+	</message>
+	<message>
+		<message-id>1126</message-id>
+		<message-text>Date of downgrade should be provided</message-text>
+	</message>
+	<message>
+		<message-id>1127</message-id>
+		<message-text>Downgrade service should be provided</message-text>
+	</message>
+	<message>
+		<message-id>1128</message-id>
+		<message-text>ServiceId is should be provided</message-text>
+	</message>
+	<message>
+		<message-id>1129</message-id>
+		<message-text>Invalid Serviceid</message-text>
+	</message>
+	<message>
+		<message-id>1130</message-id>
+		<message-text>This contract is not valid for service downgrade</message-text>
+	</message>
+	<message>
+		<message-id>1131</message-id>
+		<message-text>Unable to update service downgrade details</message-text>
+	</message>
+	<message>
+		<message-id>97039</message-id>
+		<message-text> No customer exists with this External id</message-text>
+	</message>
+	<message>
+		<message-id>90108</message-id>
+		<message-text>No active contracts available for Suspend</message-text>
+	</message>
+</error-messages>

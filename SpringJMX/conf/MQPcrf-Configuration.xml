@@ -1,0 +1,36 @@
+<PcrfdConfiguration ipAddress="172.16.11.226" 
+service-provider="Magnaquest"
+tgpp-network="false" dataBaseType="mysql">
+ <Authentication
+	port="1812"	    
+    min-threads="10"
+    max-threads="10"
+    thread-live-timeout="10000"
+    receive-buffer-size="16384">
+  </Authentication> 
+  <Accounting
+	port="1813"	    
+    min-threads="10"
+    max-threads="10"
+    thread-live-timeout="10000"
+	log-packets-to-db="true"
+	log-start-packets="true"
+	receive-buffer-size="16384">
+  </Accounting>
+  <Proxy
+	port="1814"	    
+    min-threads="10"
+    max-threads="10"
+	log-accounting="true"
+    thread-live-timeout="10000"
+	receive-buffer-size="16384">
+  </Proxy>
+  <WX
+	port="3868"	    
+    min-threads="10"
+    max-threads="10"
+	log-accounting="true"
+    thread-live-timeout="10000"
+	receive-buffer-size="16384">
+  </WX>
+</PcrfdConfiguration>

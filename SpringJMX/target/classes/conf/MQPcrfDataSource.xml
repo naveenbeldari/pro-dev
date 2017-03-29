@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <DataSource-Details>
+	<mysql
+     user="root" 
+ 	 password="test" 
+     jdbcUrl="jdbc:mysql://172.16.11.226:3306/pcrf"
+     driverClass="com.mysql.jdbc.Driver"
+	 maxConnections="25" 
+	 minConnections="3" 
+	 acquireIncrement="1"
+   	 idleConnectionTestPeriod="28800"
+	 testConnectionOnCheckin="true"
+	 automaticTestTable="CONNECTION_TEST">
+</mysql>
+<oracle
+	 user=" mqn1" 
+ 	 password=" mqn1" 
+     jdbcUrl="jdbc:oracle:thin:@172.16.9.124:1521:DEVDB"
+     driverClass="oracle.jdbc.driver.OracleDriver"
+	 maxConnections="3" 
+	 minConnections="1" 
+	 acquireIncrement="1"
+   	 idleConnectionTestPeriod="28800"
+	 testConnectionOnCheckin="true"
+	 automaticTestTable="CONNECTION_TEST"
+	>
+</oracle>
+ </DataSource-Details>

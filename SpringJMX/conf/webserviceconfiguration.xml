@@ -1,0 +1,20 @@
+<Configuration>
+ <GetRemainingUnits
+    ServiceUrl = "http://testvelocity.mqsubscribe.net/MQServiceWebClient.deploy/"
+    ExecutionFilePath = "http://testvelocity.mqsubscribe.net/service.deploy/service.asmx"
+    Username="SYSADMIN"
+    Password = "SYSADMIN"
+    ExternalPartyName = "MQS"
+    DateFormat = "MM/dd/yyyy HH:mm:ss"
+>
+</GetRemainingUnits>
+ <RateDataRecord
+    ServiceUrl = "http://testvelocity.mqsubscribe.net/MQServiceWebClient.deploy/"
+	ExecutionFilePath =	"http://testvelocity.mqsubscribe.net/Service.deploy/service.asmx"
+    Username = "SYSADMIN"
+    Password = "SYSADMIN"
+    ExternalPartyName = "MQS"
+    DateFormat = "MM/dd/yyyy HH:mm:ss"
+>
+ </RateDataRecord> 
+</Configuration>

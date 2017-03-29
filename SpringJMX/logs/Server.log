@@ -1,0 +1,345 @@
+2015-02-19 14:29:42,413 [main] DEBUG ServerLog - MQPcrf.Pcrfd starting.
+2015-02-19 14:29:42,434 [main] DEBUG ServerLog - [INFO]   : Entered into method : onStart()  
+2015-02-19 14:29:42,435 [main] DEBUG ServerLog - [START]  : Checking for MQNsure license ....
+2015-02-19 14:29:42,435 [main] DEBUG ServerLog - [INFO]   : Entered into getLicenseStatus() method 
+2015-02-19 14:29:42,501 [main] DEBUG ServerLog - [INFO]   : Exited from getLicenseStatus() method 
+2015-02-19 14:29:42,560 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-02-19 14:29:42,601 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-02-19 14:29:42,601 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-02-19 14:29:42,604 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-02-19 14:29:42,604 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-02-19 14:29:42,651 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-02-19 14:29:42,651 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-02-19 14:29:42,699 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-02-19 14:29:42,699 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-02-19 14:29:42,726 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-02-19 14:29:42,726 [main] DEBUG ServerLog - [START]  : Pcrf service configuration loaded sucessfully.
+2015-02-19 14:29:42,726 [main] DEBUG ServerLog - [STATS]  : Timetaken to load Pcrf service configuration :  224 milli seconds .
+2015-02-19 14:29:42,726 [main] DEBUG ServerLog - [STATS]  : Time taken for Datastore connection .. :  0 milli seconds .
+2015-02-19 14:29:42,726 [main] DEBUG ServerLog - [START]  : Caching service intialized sucessfully.
+2015-02-19 14:29:42,726 [main] DEBUG ServerLog - [INFO] Entered into  method  cacheData()  
+2015-02-19 14:29:42,758 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadGroup()  
+2015-02-19 14:29:42,758 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllRadGroups()  
+2015-02-19 14:29:43,223 [main] DEBUG ServerLog - [INFO] Exited from method  getAllRadGroups()  
+2015-02-19 14:29:43,225 [main] DEBUG ServerLog - Group size = 100
+2015-02-19 14:29:43,225 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadGroup()  
+2015-02-19 14:29:43,225 [main] DEBUG ServerLog - Time taken to get all radgroups : 468 millisecs
+2015-02-19 14:29:43,225 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadService()  
+2015-02-19 14:29:43,225 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllRadServices()  
+2015-02-19 14:29:43,234 [main] DEBUG ServerLog - [INFO] Exiting from method  getAllRadServices()
+2015-02-19 14:29:43,235 [main] ERROR ServerLog - Service size = 198
+2015-02-19 14:29:43,235 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadService()  
+2015-02-19 14:29:43,235 [main] ERROR ServerLog - Time taken to get all radservice : 10 millisecs
+2015-02-19 14:29:43,235 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadRuleGrpAsso()  
+2015-02-19 14:29:43,235 [main] DEBUG ServerLog - [INFO] Entered into  method  getGrpListFromRuleGrpAssociation()  
+2015-02-19 14:29:43,242 [main] DEBUG ServerLog - [INFO] Exiting from method  getGrpListFromRuleGrpAssociation()  
+2015-02-19 14:29:43,242 [main] DEBUG ServerLog - RadRuleGrpAsso size = 0
+2015-02-19 14:29:43,242 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadRuleGrpAsso()  
+2015-02-19 14:29:43,242 [main] DEBUG ServerLog - [INFO] Entered into  method  loadBandWidthMaster()  
+2015-02-19 14:29:43,242 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllValuesBandWidthMaster()
+2015-02-19 14:29:43,248 [main] DEBUG ServerLog - inside PCRFDataHandler Time taken to get all BandWidthMaster : 6 millisecs
+2015-02-19 14:29:43,248 [main] DEBUG ServerLog - [INFO] Exiting from method  getAllValuesBandWidthMaster()
+2015-02-19 14:29:43,248 [main] DEBUG ServerLog - inside RadCacheLoader Time taken to get all BandWidthMaster::: : 6 millisecs
+2015-02-19 14:29:43,248 [main] DEBUG ServerLog - BandWidthMaster size = 100
+2015-02-19 14:29:43,248 [main] DEBUG ServerLog - [INFO] Exited from  method  loadBandWidthMaster()  
+2015-02-19 14:29:43,248 [main] DEBUG ServerLog - Time taken to get all BandWidthMaster : 6 millisecs
+2015-02-19 14:29:43,248 [main] DEBUG ServerLog - [INFO] Exited from  method  cacheData()  
+2015-02-19 14:29:43,248 [main] DEBUG ServerLog - [START]  : Caching service cached data sucessfully.
+2015-02-19 14:29:43,248 [main] INFO  ServerLog - MQPcrf.Pcrfd started.
+2015-04-28 16:13:04,912 [main] DEBUG ServerLog - MQPcrf.Pcrfd starting.
+2015-04-28 16:13:04,943 [main] DEBUG ServerLog - [INFO]   : Entered into method : onStart()  
+2015-04-28 16:13:04,943 [main] DEBUG ServerLog - [START]  : Checking for MQNsure license ....
+2015-04-28 16:13:04,943 [main] DEBUG ServerLog - [INFO]   : Entered into getLicenseStatus() method 
+2015-04-28 16:13:04,975 [main] DEBUG ServerLog - [INFO]   : Exited from getLicenseStatus() method 
+2015-04-28 16:13:05,021 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 16:13:05,021 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 16:13:05,021 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 16:13:05,037 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 16:13:05,037 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 16:13:05,037 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 16:13:05,037 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 16:13:05,037 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 16:13:05,037 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 16:13:05,037 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 16:13:05,037 [main] DEBUG ServerLog - [START]  : Pcrf service configuration loaded sucessfully.
+2015-04-28 16:13:05,037 [main] DEBUG ServerLog - [STATS]  : Timetaken to load Pcrf service configuration :  62 milli seconds .
+2015-04-28 16:13:05,037 [main] DEBUG ServerLog - [STATS]  : Time taken for Datastore connection .. :  0 milli seconds .
+2015-04-28 16:13:05,037 [main] DEBUG ServerLog - [START]  : Caching service intialized sucessfully.
+2015-04-28 16:13:05,037 [main] DEBUG ServerLog - [INFO] Entered into  method  cacheData()  
+2015-04-28 16:13:05,053 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadGroup()  
+2015-04-28 16:13:05,053 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllRadGroups()  
+2015-04-28 16:13:05,271 [main] DEBUG ServerLog - [INFO] Exited from method  getAllRadGroups()  
+2015-04-28 16:13:05,271 [main] DEBUG ServerLog - Group size = 100
+2015-04-28 16:13:05,271 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadGroup()  
+2015-04-28 16:13:05,271 [main] DEBUG ServerLog - Time taken to get all radgroups : 218 millisecs
+2015-04-28 16:13:05,271 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadService()  
+2015-04-28 16:13:05,271 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllRadServices()  
+2015-04-28 16:13:05,287 [main] DEBUG ServerLog - [INFO] Exiting from method  getAllRadServices()
+2015-04-28 16:13:05,287 [main] ERROR ServerLog - Service size = 198
+2015-04-28 16:13:05,287 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadService()  
+2015-04-28 16:13:05,287 [main] ERROR ServerLog - Time taken to get all radservice : 16 millisecs
+2015-04-28 16:13:05,287 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadRuleGrpAsso()  
+2015-04-28 16:13:05,287 [main] DEBUG ServerLog - [INFO] Entered into  method  getGrpListFromRuleGrpAssociation()  
+2015-04-28 16:13:05,349 [main] DEBUG ServerLog - [INFO] Exiting from method  getGrpListFromRuleGrpAssociation()  
+2015-04-28 16:13:05,349 [main] DEBUG ServerLog - RadRuleGrpAsso size = 0
+2015-04-28 16:13:05,349 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadRuleGrpAsso()  
+2015-04-28 16:13:05,349 [main] DEBUG ServerLog - [INFO] Entered into  method  loadBandWidthMaster()  
+2015-04-28 16:13:05,349 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllValuesBandWidthMaster()
+2015-04-28 16:13:05,349 [main] DEBUG ServerLog - inside PCRFDataHandler Time taken to get all BandWidthMaster : 0 millisecs
+2015-04-28 16:13:05,349 [main] DEBUG ServerLog - [INFO] Exiting from method  getAllValuesBandWidthMaster()
+2015-04-28 16:13:05,349 [main] DEBUG ServerLog - inside RadCacheLoader Time taken to get all BandWidthMaster::: : 0 millisecs
+2015-04-28 16:13:05,349 [main] DEBUG ServerLog - BandWidthMaster size = 103
+2015-04-28 16:13:05,349 [main] DEBUG ServerLog - [INFO] Exited from  method  loadBandWidthMaster()  
+2015-04-28 16:13:05,349 [main] DEBUG ServerLog - Time taken to get all BandWidthMaster : 0 millisecs
+2015-04-28 16:13:05,349 [main] DEBUG ServerLog - [INFO] Exited from  method  cacheData()  
+2015-04-28 16:13:05,349 [main] DEBUG ServerLog - [START]  : Caching service cached data sucessfully.
+2015-04-28 16:13:05,349 [main] INFO  ServerLog - MQPcrf.Pcrfd started.
+2015-04-28 16:14:27,433 [main] DEBUG ServerLog - MQPcrf.Pcrfd starting.
+2015-04-28 16:14:27,433 [main] DEBUG ServerLog - [INFO]   : Entered into method : onStart()  
+2015-04-28 16:14:27,433 [main] DEBUG ServerLog - [START]  : Checking for MQNsure license ....
+2015-04-28 16:14:27,433 [main] DEBUG ServerLog - [INFO]   : Entered into getLicenseStatus() method 
+2015-04-28 16:14:27,433 [main] DEBUG ServerLog - [INFO]   : Exited from getLicenseStatus() method 
+2015-04-28 16:14:27,433 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 16:14:27,464 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 16:14:27,464 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 16:14:27,464 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 16:14:27,464 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 16:14:27,464 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 16:14:27,464 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 16:14:27,464 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 16:14:27,464 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 16:14:27,479 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 16:14:27,479 [main] DEBUG ServerLog - [START]  : Pcrf service configuration loaded sucessfully.
+2015-04-28 16:14:27,479 [main] DEBUG ServerLog - [STATS]  : Timetaken to load Pcrf service configuration :  46 milli seconds .
+2015-04-28 16:14:27,479 [main] DEBUG ServerLog - [STATS]  : Time taken for Datastore connection .. :  0 milli seconds .
+2015-04-28 16:14:27,479 [main] DEBUG ServerLog - [START]  : Caching service intialized sucessfully.
+2015-04-28 16:14:27,479 [main] DEBUG ServerLog - [INFO] Entered into  method  cacheData()  
+2015-04-28 16:14:27,479 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadGroup()  
+2015-04-28 16:14:27,479 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllRadGroups()  
+2015-04-28 16:14:27,682 [main] DEBUG ServerLog - [INFO] Exited from method  getAllRadGroups()  
+2015-04-28 16:14:27,682 [main] DEBUG ServerLog - Group size = 100
+2015-04-28 16:14:27,682 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadGroup()  
+2015-04-28 16:14:27,682 [main] DEBUG ServerLog - Time taken to get all radgroups : 203 millisecs
+2015-04-28 16:14:27,682 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadService()  
+2015-04-28 16:14:27,682 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllRadServices()  
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - [INFO] Exiting from method  getAllRadServices()
+2015-04-28 16:14:27,698 [main] ERROR ServerLog - Service size = 198
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadService()  
+2015-04-28 16:14:27,698 [main] ERROR ServerLog - Time taken to get all radservice : 16 millisecs
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadRuleGrpAsso()  
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - [INFO] Entered into  method  getGrpListFromRuleGrpAssociation()  
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - [INFO] Exiting from method  getGrpListFromRuleGrpAssociation()  
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - RadRuleGrpAsso size = 0
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadRuleGrpAsso()  
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - [INFO] Entered into  method  loadBandWidthMaster()  
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllValuesBandWidthMaster()
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - inside PCRFDataHandler Time taken to get all BandWidthMaster : 0 millisecs
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - [INFO] Exiting from method  getAllValuesBandWidthMaster()
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - inside RadCacheLoader Time taken to get all BandWidthMaster::: : 0 millisecs
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - BandWidthMaster size = 103
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - [INFO] Exited from  method  loadBandWidthMaster()  
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - Time taken to get all BandWidthMaster : 0 millisecs
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - [INFO] Exited from  method  cacheData()  
+2015-04-28 16:14:27,698 [main] DEBUG ServerLog - [START]  : Caching service cached data sucessfully.
+2015-04-28 16:14:27,698 [main] INFO  ServerLog - MQPcrf.Pcrfd started.
+2015-04-28 16:17:40,670 [main] DEBUG ServerLog - MQPcrf.Pcrfd starting.
+2015-04-28 16:17:40,670 [main] DEBUG ServerLog - [INFO]   : Entered into method : onStart()  
+2015-04-28 16:17:40,670 [main] DEBUG ServerLog - [START]  : Checking for MQNsure license ....
+2015-04-28 16:17:40,670 [main] DEBUG ServerLog - [INFO]   : Entered into getLicenseStatus() method 
+2015-04-28 16:17:40,670 [main] DEBUG ServerLog - [INFO]   : Exited from getLicenseStatus() method 
+2015-04-28 16:17:40,670 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 16:17:40,701 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 16:17:40,701 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 16:17:40,701 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 16:17:40,701 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 16:17:40,701 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 16:17:40,701 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 16:17:40,701 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 16:17:40,701 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 16:17:40,701 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 16:17:40,701 [main] DEBUG ServerLog - [START]  : Pcrf service configuration loaded sucessfully.
+2015-04-28 16:17:40,701 [main] DEBUG ServerLog - [STATS]  : Timetaken to load Pcrf service configuration :  31 milli seconds .
+2015-04-28 16:17:40,701 [main] DEBUG ServerLog - [STATS]  : Time taken for Datastore connection .. :  0 milli seconds .
+2015-04-28 16:17:40,701 [main] DEBUG ServerLog - [START]  : Caching service intialized sucessfully.
+2015-04-28 16:17:40,701 [main] DEBUG ServerLog - [INFO] Entered into  method  cacheData()  
+2015-04-28 16:17:40,717 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadGroup()  
+2015-04-28 16:17:40,717 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllRadGroups()  
+2015-04-28 16:17:40,920 [main] DEBUG ServerLog - [INFO] Exited from method  getAllRadGroups()  
+2015-04-28 16:17:40,920 [main] DEBUG ServerLog - Group size = 100
+2015-04-28 16:17:40,920 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadGroup()  
+2015-04-28 16:17:40,920 [main] DEBUG ServerLog - Time taken to get all radgroups : 203 millisecs
+2015-04-28 16:17:40,920 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadService()  
+2015-04-28 16:17:40,920 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllRadServices()  
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - [INFO] Exiting from method  getAllRadServices()
+2015-04-28 16:17:40,935 [main] ERROR ServerLog - Service size = 198
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadService()  
+2015-04-28 16:17:40,935 [main] ERROR ServerLog - Time taken to get all radservice : 15 millisecs
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadRuleGrpAsso()  
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - [INFO] Entered into  method  getGrpListFromRuleGrpAssociation()  
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - [INFO] Exiting from method  getGrpListFromRuleGrpAssociation()  
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - RadRuleGrpAsso size = 0
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadRuleGrpAsso()  
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - [INFO] Entered into  method  loadBandWidthMaster()  
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllValuesBandWidthMaster()
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - inside PCRFDataHandler Time taken to get all BandWidthMaster : 0 millisecs
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - [INFO] Exiting from method  getAllValuesBandWidthMaster()
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - inside RadCacheLoader Time taken to get all BandWidthMaster::: : 0 millisecs
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - BandWidthMaster size = 103
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - [INFO] Exited from  method  loadBandWidthMaster()  
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - Time taken to get all BandWidthMaster : 0 millisecs
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - [INFO] Exited from  method  cacheData()  
+2015-04-28 16:17:40,935 [main] DEBUG ServerLog - [START]  : Caching service cached data sucessfully.
+2015-04-28 16:17:40,951 [main] INFO  ServerLog - MQPcrf.Pcrfd started.
+2015-04-28 17:10:56,587 [main] DEBUG ServerLog - MQPcrf.Pcrfd starting.
+2015-04-28 17:10:56,587 [main] DEBUG ServerLog - [INFO]   : Entered into method : onStart()  
+2015-04-28 17:10:56,587 [main] DEBUG ServerLog - [START]  : Checking for MQNsure license ....
+2015-04-28 17:10:56,587 [main] DEBUG ServerLog - [INFO]   : Entered into getLicenseStatus() method 
+2015-04-28 17:10:56,587 [main] DEBUG ServerLog - [INFO]   : Exited from getLicenseStatus() method 
+2015-04-28 17:10:56,587 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 17:10:56,618 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 17:10:56,618 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 17:10:56,618 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 17:10:56,618 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 17:10:56,618 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 17:10:56,618 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 17:10:56,618 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 17:10:56,618 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 17:10:56,618 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 17:10:56,618 [main] DEBUG ServerLog - [START]  : Pcrf service configuration loaded sucessfully.
+2015-04-28 17:10:56,634 [main] DEBUG ServerLog - [STATS]  : Timetaken to load Pcrf service configuration :  47 milli seconds .
+2015-04-28 17:10:56,634 [main] DEBUG ServerLog - [STATS]  : Time taken for Datastore connection .. :  0 milli seconds .
+2015-04-28 17:10:56,634 [main] DEBUG ServerLog - [START]  : Caching service intialized sucessfully.
+2015-04-28 17:10:56,634 [main] DEBUG ServerLog - [INFO] Entered into  method  cacheData()  
+2015-04-28 17:10:56,634 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadGroup()  
+2015-04-28 17:10:56,634 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllRadGroups()  
+2015-04-28 17:10:56,852 [main] DEBUG ServerLog - [INFO] Exited from method  getAllRadGroups()  
+2015-04-28 17:10:56,852 [main] DEBUG ServerLog - Group size = 100
+2015-04-28 17:10:56,852 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadGroup()  
+2015-04-28 17:10:56,852 [main] DEBUG ServerLog - Time taken to get all radgroups : 218 millisecs
+2015-04-28 17:10:56,852 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadService()  
+2015-04-28 17:10:56,852 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllRadServices()  
+2015-04-28 17:10:56,868 [main] DEBUG ServerLog - [INFO] Exiting from method  getAllRadServices()
+2015-04-28 17:10:56,868 [main] ERROR ServerLog - Service size = 198
+2015-04-28 17:10:56,868 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadService()  
+2015-04-28 17:10:56,868 [main] ERROR ServerLog - Time taken to get all radservice : 16 millisecs
+2015-04-28 17:10:56,868 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadRuleGrpAsso()  
+2015-04-28 17:10:56,868 [main] DEBUG ServerLog - [INFO] Entered into  method  getGrpListFromRuleGrpAssociation()  
+2015-04-28 17:10:56,868 [main] DEBUG ServerLog - [INFO] Exiting from method  getGrpListFromRuleGrpAssociation()  
+2015-04-28 17:10:56,868 [main] DEBUG ServerLog - RadRuleGrpAsso size = 0
+2015-04-28 17:10:56,868 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadRuleGrpAsso()  
+2015-04-28 17:10:56,868 [main] DEBUG ServerLog - [INFO] Entered into  method  loadBandWidthMaster()  
+2015-04-28 17:10:56,868 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllValuesBandWidthMaster()
+2015-04-28 17:10:56,883 [main] DEBUG ServerLog - inside PCRFDataHandler Time taken to get all BandWidthMaster : 15 millisecs
+2015-04-28 17:10:56,883 [main] DEBUG ServerLog - [INFO] Exiting from method  getAllValuesBandWidthMaster()
+2015-04-28 17:10:56,883 [main] DEBUG ServerLog - inside RadCacheLoader Time taken to get all BandWidthMaster::: : 15 millisecs
+2015-04-28 17:10:56,883 [main] DEBUG ServerLog - BandWidthMaster size = 103
+2015-04-28 17:10:56,883 [main] DEBUG ServerLog - [INFO] Exited from  method  loadBandWidthMaster()  
+2015-04-28 17:10:56,883 [main] DEBUG ServerLog - Time taken to get all BandWidthMaster : 15 millisecs
+2015-04-28 17:10:56,883 [main] DEBUG ServerLog - [INFO] Exited from  method  cacheData()  
+2015-04-28 17:10:56,883 [main] DEBUG ServerLog - [START]  : Caching service cached data sucessfully.
+2015-04-28 17:10:56,883 [main] INFO  ServerLog - MQPcrf.Pcrfd started.
+2015-04-28 17:11:55,887 [main] DEBUG ServerLog - MQPcrf.Pcrfd starting.
+2015-04-28 17:11:55,887 [main] DEBUG ServerLog - [INFO]   : Entered into method : onStart()  
+2015-04-28 17:11:55,887 [main] DEBUG ServerLog - [START]  : Checking for MQNsure license ....
+2015-04-28 17:11:55,887 [main] DEBUG ServerLog - [INFO]   : Entered into getLicenseStatus() method 
+2015-04-28 17:11:55,888 [main] DEBUG ServerLog - [INFO]   : Exited from getLicenseStatus() method 
+2015-04-28 17:11:55,888 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 17:11:55,888 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 17:11:55,888 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 17:11:55,888 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 17:11:55,888 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 17:11:55,919 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 17:11:55,919 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 17:11:55,919 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 17:11:55,919 [main] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 17:11:55,919 [main] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 17:11:55,919 [main] DEBUG ServerLog - [START]  : Pcrf service configuration loaded sucessfully.
+2015-04-28 17:11:55,919 [main] DEBUG ServerLog - [STATS]  : Timetaken to load Pcrf service configuration :  31 milli seconds .
+2015-04-28 17:11:55,919 [main] DEBUG ServerLog - [STATS]  : Time taken for Datastore connection .. :  0 milli seconds .
+2015-04-28 17:11:55,919 [main] DEBUG ServerLog - [START]  : Caching service intialized sucessfully.
+2015-04-28 17:11:55,919 [main] DEBUG ServerLog - [INFO] Entered into  method  cacheData()  
+2015-04-28 17:11:55,919 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadGroup()  
+2015-04-28 17:11:55,919 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllRadGroups()  
+2015-04-28 17:11:56,137 [main] DEBUG ServerLog - [INFO] Exited from method  getAllRadGroups()  
+2015-04-28 17:11:56,137 [main] DEBUG ServerLog - Group size = 100
+2015-04-28 17:11:56,137 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadGroup()  
+2015-04-28 17:11:56,137 [main] DEBUG ServerLog - Time taken to get all radgroups : 218 millisecs
+2015-04-28 17:11:56,137 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadService()  
+2015-04-28 17:11:56,137 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllRadServices()  
+2015-04-28 17:11:56,153 [main] DEBUG ServerLog - [INFO] Exiting from method  getAllRadServices()
+2015-04-28 17:11:56,153 [main] ERROR ServerLog - Service size = 198
+2015-04-28 17:11:56,153 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadService()  
+2015-04-28 17:11:56,153 [main] ERROR ServerLog - Time taken to get all radservice : 16 millisecs
+2015-04-28 17:11:56,153 [main] DEBUG ServerLog - [INFO] Entered into  method  loadRadRuleGrpAsso()  
+2015-04-28 17:11:56,153 [main] DEBUG ServerLog - [INFO] Entered into  method  getGrpListFromRuleGrpAssociation()  
+2015-04-28 17:11:56,153 [main] DEBUG ServerLog - [INFO] Exiting from method  getGrpListFromRuleGrpAssociation()  
+2015-04-28 17:11:56,153 [main] DEBUG ServerLog - RadRuleGrpAsso size = 0
+2015-04-28 17:11:56,169 [main] DEBUG ServerLog - [INFO] Exited from  method  loadRadRuleGrpAsso()  
+2015-04-28 17:11:56,169 [main] DEBUG ServerLog - [INFO] Entered into  method  loadBandWidthMaster()  
+2015-04-28 17:11:56,169 [main] DEBUG ServerLog - [INFO] Entered into  method  getAllValuesBandWidthMaster()
+2015-04-28 17:11:56,169 [main] DEBUG ServerLog - inside PCRFDataHandler Time taken to get all BandWidthMaster : 0 millisecs
+2015-04-28 17:11:56,169 [main] DEBUG ServerLog - [INFO] Exiting from method  getAllValuesBandWidthMaster()
+2015-04-28 17:11:56,169 [main] DEBUG ServerLog - inside RadCacheLoader Time taken to get all BandWidthMaster::: : 0 millisecs
+2015-04-28 17:11:56,169 [main] DEBUG ServerLog - BandWidthMaster size = 103
+2015-04-28 17:11:56,169 [main] DEBUG ServerLog - [INFO] Exited from  method  loadBandWidthMaster()  
+2015-04-28 17:11:56,169 [main] DEBUG ServerLog - Time taken to get all BandWidthMaster : 0 millisecs
+2015-04-28 17:11:56,169 [main] DEBUG ServerLog - [INFO] Exited from  method  cacheData()  
+2015-04-28 17:11:56,169 [main] DEBUG ServerLog - [START]  : Caching service cached data sucessfully.
+2015-04-28 17:11:56,169 [main] INFO  ServerLog - MQPcrf.Pcrfd started.
+2015-04-28 17:12:06,484 [Thread-4] DEBUG ServerLog - MQPcrf.Pcrfd stopping.
+2015-04-28 17:12:06,484 [Thread-4] DEBUG ServerLog - [INFO]   : Entered into onStop() method 
+2015-04-28 17:12:06,484 [Thread-4] DEBUG ServerLog - [STOP]   : Stopping all services...
+2015-04-28 17:12:06,485 [Thread-4] DEBUG ServerLog - [INFO] Exited from  method  clearAllCache()  
+2015-04-28 17:12:06,485 [Thread-4] DEBUG ServerLog - [STOP]   : Services stopped sucessfully...
+
+2015-04-28 17:12:06,485 [Thread-4] DEBUG ServerLog - [INFO]   : Exited from onStop() method 
+2015-04-28 17:12:06,485 [Thread-4] DEBUG ServerLog - [STATS]  : Timetaken for onStop() method  :  1milli seconds .
+2015-04-28 17:12:06,485 [Thread-4] INFO  ServerLog - MQPcrf.Pcrfd stopped.
+2015-04-28 17:12:11,058 [Thread-4] DEBUG ServerLog - MQPcrf.Pcrfd starting.
+2015-04-28 17:12:11,058 [Thread-4] DEBUG ServerLog - [INFO]   : Entered into method : onStart()  
+2015-04-28 17:12:11,058 [Thread-4] DEBUG ServerLog - [START]  : Checking for MQNsure license ....
+2015-04-28 17:12:11,058 [Thread-4] DEBUG ServerLog - [INFO]   : Entered into getLicenseStatus() method 
+2015-04-28 17:12:11,063 [Thread-4] DEBUG ServerLog - [INFO]   : Exited from getLicenseStatus() method 
+2015-04-28 17:12:11,064 [Thread-4] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 17:12:11,067 [Thread-4] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 17:12:11,067 [Thread-4] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 17:12:11,070 [Thread-4] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 17:12:11,070 [Thread-4] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 17:12:11,076 [Thread-4] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 17:12:11,076 [Thread-4] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 17:12:11,078 [Thread-4] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 17:12:11,078 [Thread-4] DEBUG ServerLog - [INFO] Entered into method : readXMLFile()
+2015-04-28 17:12:11,081 [Thread-4] DEBUG ServerLog - [INFO] Exited  from method : readXML() 
+2015-04-28 17:12:11,081 [Thread-4] DEBUG ServerLog - [START]  : Pcrf service configuration loaded sucessfully.
+2015-04-28 17:12:11,081 [Thread-4] DEBUG ServerLog - [STATS]  : Timetaken to load Pcrf service configuration :  18 milli seconds .
+2015-04-28 17:12:11,081 [Thread-4] DEBUG ServerLog - [STATS]  : Time taken for Datastore connection .. :  0 milli seconds .
+2015-04-28 17:12:11,081 [Thread-4] DEBUG ServerLog - [START]  : Caching service intialized sucessfully.
+2015-04-28 17:12:11,081 [Thread-4] DEBUG ServerLog - [INFO] Entered into  method  cacheData()  
+2015-04-28 17:12:11,087 [Thread-4] DEBUG ServerLog - [INFO] Entered into  method  loadRadGroup()  
+2015-04-28 17:12:11,087 [Thread-4] DEBUG ServerLog - [INFO] Entered into  method  getAllRadGroups()  
+2015-04-28 17:12:11,098 [Thread-4] DEBUG ServerLog - [INFO] Exited from method  getAllRadGroups()  
+2015-04-28 17:12:11,098 [Thread-4] DEBUG ServerLog - Group size = 100
+2015-04-28 17:12:11,098 [Thread-4] DEBUG ServerLog - [INFO] Exited from  method  loadRadGroup()  
+2015-04-28 17:12:11,098 [Thread-4] DEBUG ServerLog - Time taken to get all radgroups : 11 millisecs
+2015-04-28 17:12:11,098 [Thread-4] DEBUG ServerLog - [INFO] Entered into  method  loadRadService()  
+2015-04-28 17:12:11,098 [Thread-4] DEBUG ServerLog - [INFO] Entered into  method  getAllRadServices()  
+2015-04-28 17:12:11,107 [Thread-4] DEBUG ServerLog - [INFO] Exiting from method  getAllRadServices()
+2015-04-28 17:12:11,107 [Thread-4] ERROR ServerLog - Service size = 198
+2015-04-28 17:12:11,108 [Thread-4] DEBUG ServerLog - [INFO] Exited from  method  loadRadService()  
+2015-04-28 17:12:11,108 [Thread-4] ERROR ServerLog - Time taken to get all radservice : 10 millisecs
+2015-04-28 17:12:11,108 [Thread-4] DEBUG ServerLog - [INFO] Entered into  method  loadRadRuleGrpAsso()  
+2015-04-28 17:12:11,108 [Thread-4] DEBUG ServerLog - [INFO] Entered into  method  getGrpListFromRuleGrpAssociation()  
+2015-04-28 17:12:11,113 [Thread-4] DEBUG ServerLog - [INFO] Exiting from method  getGrpListFromRuleGrpAssociation()  
+2015-04-28 17:12:11,113 [Thread-4] DEBUG ServerLog - RadRuleGrpAsso size = 0
+2015-04-28 17:12:11,113 [Thread-4] DEBUG ServerLog - [INFO] Exited from  method  loadRadRuleGrpAsso()  
+2015-04-28 17:12:11,113 [Thread-4] DEBUG ServerLog - [INFO] Entered into  method  loadBandWidthMaster()  
+2015-04-28 17:12:11,113 [Thread-4] DEBUG ServerLog - [INFO] Entered into  method  getAllValuesBandWidthMaster()
+2015-04-28 17:12:11,118 [Thread-4] DEBUG ServerLog - inside PCRFDataHandler Time taken to get all BandWidthMaster : 5 millisecs
+2015-04-28 17:12:11,118 [Thread-4] DEBUG ServerLog - [INFO] Exiting from method  getAllValuesBandWidthMaster()
+2015-04-28 17:12:11,118 [Thread-4] DEBUG ServerLog - inside RadCacheLoader Time taken to get all BandWidthMaster::: : 5 millisecs
+2015-04-28 17:12:11,118 [Thread-4] DEBUG ServerLog - BandWidthMaster size = 103
+2015-04-28 17:12:11,118 [Thread-4] DEBUG ServerLog - [INFO] Exited from  method  loadBandWidthMaster()  
+2015-04-28 17:12:11,118 [Thread-4] DEBUG ServerLog - Time taken to get all BandWidthMaster : 5 millisecs
+2015-04-28 17:12:11,118 [Thread-4] DEBUG ServerLog - [INFO] Exited from  method  cacheData()  
+2015-04-28 17:12:11,118 [Thread-4] DEBUG ServerLog - [START]  : Caching service cached data sucessfully.
+2015-04-28 17:12:11,118 [Thread-4] INFO  ServerLog - MQPcrf.Pcrfd started.
