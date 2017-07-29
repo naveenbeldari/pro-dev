@@ -1,0 +1,25 @@
+
+http://localhost:8080/Notification_WS/MQ/NotificationServer/storeSMS
+{"msgId":1,"msgType":"test","recipientId":21,"msgDesc":"test"}
+
+http://localhost:8080/Notification_WS/MQ/NotificationServer/getSMSDetails
+1
+
+http://localhost:8080/Notification_WS/MQ/NotificationServer/deleteSMS
+1
+
+http://localhost:8080/Notification_WS/MQ/NotificationServer/get (get)
+
+Headers
+Authorization Basic bmF2ZWVuOm5hdmVlbg==(username and password)
+
+http://localhost:8080/Notification_WS/MQ/NotificationServer/getSMSDetails (post)
+Headers
+Authorization Bearer qsp4vqeil42q052pcknm4dclva(token)
+
+Payload
+payload value
+
+http://localhost:8080/Notification_WS/MQ/NotificationServer/logoutSession (post)
+Headers
+Authorization Bearer qsp4vqeil42q052pcknm4dclva(token)
